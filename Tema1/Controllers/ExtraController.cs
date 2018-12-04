@@ -13,5 +13,10 @@ namespace Tema1.Controllers
         {
             return View();
         }
+
+        public ActionResult Test()
+        {
+            return View();
+        }
     }
 }
