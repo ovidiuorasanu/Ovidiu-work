@@ -16,6 +16,13 @@ namespace Tema1.Controllers
 
         public ActionResult Test()
         {
+            var Greeting = "Welcome to my life!";
+            var counter = 103;
+            var today = DateTime.Now;
+            ViewBag.Gr = Greeting;
+            ViewBag.cnter = counter;
+            ViewBag.td = today;
+
             return View();
         }
     }
