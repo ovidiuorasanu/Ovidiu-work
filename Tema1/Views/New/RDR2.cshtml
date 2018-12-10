@@ -1,0 +1,34 @@
+﻿
+@{
+    ViewBag.title = "New";
+    var price = 25;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>RDR2</title>
+</head>
+<body>
+    <div>
+        @if (price>30)
+        {
+            <p>The price is too high</p>
+
+        }
+        else if(price>20 && price<30)
+        {
+            <p>The price is ok</p>
+
+        }
+        else
+        {
+            <p>Price is low</p>
+        }
+
+
+    </div>
+</body>
+</html>
